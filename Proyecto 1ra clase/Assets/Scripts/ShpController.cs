@@ -14,11 +14,11 @@ public class ShpController : MonoBehaviour
     private float activeStrafeSpeed;
     private float activeHoverSpeed;
 
-    public float lookRateSpeed = 90f;
+    private float lookRateSpeed = 90f;
     private Vector2 lookInput, screenCenter, mouseDistance;
 
     private float rollInput;
-    public float rollSpeed = 90f, rollAcceleration = 3.5f;
+    private float rollSpeed = 90f, rollAcceleration = 3.5f;
     
 
     void Start()

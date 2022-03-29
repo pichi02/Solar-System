@@ -19,7 +19,7 @@ public class ChangeCamera : MonoBehaviour
     int num = 1;
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
