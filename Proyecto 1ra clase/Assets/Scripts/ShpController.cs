@@ -8,6 +8,7 @@ public class ShpController : MonoBehaviour
     [SerializeField] private float forwardSpeed = 25f;
     [SerializeField] private float strafeSpeed = 7.5f;
     [SerializeField] private float hoverSpeed = 5f;
+    private Rigidbody rb;
     private float forwardAcceleration = 2.5f, strafeAcceleration = 2f, hoverAcceleration = 2f;
     private float activeForwardSpeed;
     private float activeStrafeSpeed;
@@ -18,11 +19,13 @@ public class ShpController : MonoBehaviour
 
     private float rollInput;
     public float rollSpeed = 90f, rollAcceleration = 3.5f;
+    
 
     void Start()
     {
         screenCenter.x = Screen.width * 0.5f;
         screenCenter.y = Screen.height * 0.5f;
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
