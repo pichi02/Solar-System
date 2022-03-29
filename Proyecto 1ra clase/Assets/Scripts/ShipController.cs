@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShpController : MonoBehaviour
+public class ShipController : MonoBehaviour
 {
     [SerializeField] private float forwardSpeed = 25f;
     [SerializeField] private float strafeSpeed = 7.5f;
