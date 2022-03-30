@@ -675,9 +675,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000029087, y: -39.046112}
-  m_SizeDelta: {x: 742.3469, y: 138.0922}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000030518, y: -69.046}
+  m_SizeDelta: {x: 914.873, y: 138.0922}
+  m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1949066600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,18 +700,26 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BLABLABLABLABLA
+  m_Text: 'Sun, planets and moon textures by Solar System Scope(https://www.solarsystemscope.com/textures/)
+
+
+    Ship
+    3D model by IVTEAM(https://assetstore.unity.com/packages/3d/environments/sci-fi/lowpoly-spaceship-183012#description)
+
+
+    Phobos
+    and Deimos Textures by Celestia Forums(https://celestia.space/forum/viewtopic.php?f=5&t=20979)'
 --- !u!222 &1949066601
 CanvasRenderer:
   m_ObjectHideFlags: 0
